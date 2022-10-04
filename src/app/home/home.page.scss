@@ -1,0 +1,17 @@
+ion-content{
+  --padding-top: 20px;
+  --padding-start: 20px;
+}
+ion-title {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(220, 135, 149);
+  padding: 2%;
+}
+ion-item  {
+  & ion-label {
+    --color: rgb(205, 218, 134);
+    font-size: 1.5em;
+  }
+}
